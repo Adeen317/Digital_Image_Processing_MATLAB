@@ -1,0 +1,83 @@
+%Sine wave, modulating signal
+n = 0:255;
+x = cos(2*pi*n/18) + cos(2*pi*5*n/128);
+modulating_signal = cos(2*pi*50*n/128);
+xam = x .* modulating_signal;
+xc = cos(2*pi*50*n/128);
+ 
+% Plot the signals
+subplot(3,1,1);
+plot(n, x);
+xlabel('n');
+ylabel('Amplitude');
+title('x(n)');
+ 
+subplot(3,1,2);
+plot(n, xam);
+xlabel('n');
+ylabel('Amplitude');
+title('xam(n)');
+ 
+subplot(3,1,3);
+plot(n, xc);
+xlabel('n');
+ylabel('Amplitude');
+title('xc(n)');
+ 
+%Performing Discrete Fourier Transform point 128
+n = 0:127;
+x = cos(2*pi*n/18) + cos(2*pi*5*n/128);
+% Define the modulating signal
+modulating_signal = cos(2*pi*50*n/128);
+% Compute the modulated signal xam(n)
+xam = x .* modulating_signal;
+% Compute the 128-point DFT of xam(n)
+Xam = fft(xam, 128);
+% Plot the magnitude spectrum
+f = (0:127)*(1/128);  % Frequency axis
+magXam = abs(Xam);  % Magnitude spectrum
+stem(f, magXam);
+xlabel('Frequency (normalized)');
+ylabel('Magnitude');
+title('128-point DFT of XAM(n)');
+ 
+
+%Performing Discrete Fourier Transform point 128
+n = 0:99;
+x = cos(2*pi*n/18) + cos(2*pi*5*n/128);
+% Define the modulating signal
+modulating_signal = cos(2*pi*50*n/128);
+% Compute the modulated signal xam(n)
+xam = x .* modulating_signal;
+% Compute the 128-point DFT of xam(n)
+Xam = fft(xam, 128); 
+% Plot the magnitude spectrum
+f = (0:127)*(1/128);  % Frequency axis
+magXam = abs(Xam);  % Magnitude spectrum
+stem(f, magXam);
+xlabel('Frequency (normalized)');
+ylabel('Magnitude');
+title('128-point DFT of XAM(n)');
+ 
+%Performing Discrete Fourier Transform point 256
+ 
+n = 0:179;
+% Define the signal x(n)
+x = cos(2*pi*n/18) + cos(2*pi*5*n/128);
+% Define the modulating signal
+modulating_signal = cos(2*pi*50*n/128);
+% Compute the modulated signal xam(n)
+xam = x .* modulating_signal;
+% Compute the 256-point DFT of xam(n)
+Xam = fft(xam, 256);
+% Compute the magnitude spectrum
+magXam = abs(Xam);
+% Plot the magnitude spectrum
+f = (0:255)*(1/256);  % Frequency axis
+stem(f, magXam);
+xlabel('Frequency (normalized)');
+ylabel('Magnitude');
+title('256-point DFT of xam(n)');
+ 
+ 
+
