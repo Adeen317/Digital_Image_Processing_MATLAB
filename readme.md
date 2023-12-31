@@ -6,4 +6,9 @@
 - [Laplacian Filter](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Laplacian_Filter.m)
 - [Quantization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Sampling_and_Quantization.m)
 - [Unsharped Masking & Highboost Filtering](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Unsharped_Masked_and_Highboost_FiItering.m)
+- [Denoising & enhancing image](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Denoised_enhnaced_image.m)
+- [Finding Boundaries of Images](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Finding_boundaries_of_edges.m)
+
+
+
 
