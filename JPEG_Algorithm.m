@@ -70,3 +70,50 @@ disp(quantizedResult);
 disp('Zigzag Vector:');
 disp(zigzagVector);
 
+% e. Reverse the operations
+
+% e.1. Reverse quantization
+reverseQuantizedResult = zeros(8, 8);
+idx = 1;
+for sumIdx = 2:16
+    if sumIdx <= 9
+        for j = 1:sumIdx-1
+            i = sumIdx - j;
+            reverseQuantizedResult(i, j) = zigzagVector(idx);
+            idx = idx + 1;
+        end
+    else
+        for j = sumIdx-8:8
+            i = sumIdx - j;
+            reverseQuantizedResult(i, j) = zigzagVector(idx);
+            idx = idx + 1;
+        end
+    end
+end
+reverseQuantizedResult = reshape(reverseQuantizedResult, [8, 8]);
+reverseQuantizedResult = reverseQuantizedResult .* quantizationMatrix;
+
+% e.2. Inverse DCT
+inverseDCTResult = dctMatrix' * reverseQuantizedResult * dctMatrix;
+
+% e.3. Reverse level shifting
+reconstructedImage = inverseDCTResult + 128;
+
+% Make sure the reconstructed image has the same dimensions as the original image
+reconstructedImage = uint8(reconstructedImage(1:size(originalImage, 1), 1:size(originalImage, 2)));
+
+% Display the reconstructed image
+figure;
+subplot(1, 2, 1);
+imshow(originalImage);
+title('Original Image');
+
+subplot(1, 2, 2);
+imshow(reconstructedImage);
+title('Reconstructed Image');
+
+% Calculate and display the difference in intensities
+intensityDifference = originalImage - reconstructedImage;
+figure;
+imshow(intensityDifference);
+title('Intensity Difference');
