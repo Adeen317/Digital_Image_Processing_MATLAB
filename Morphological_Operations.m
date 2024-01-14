@@ -33,3 +33,6 @@ erodedImage2 = imerode(binaryImage, se2);
 subplot(1, 3, 3);
 imshow(erodedImage2);
 title('Erosion with Square Structuring Element');
+
+%Opening and Closing
+
