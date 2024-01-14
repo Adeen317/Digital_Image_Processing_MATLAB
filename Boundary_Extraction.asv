@@ -1,0 +1,29 @@
+[path, nofile] = imgetfile();
+if nofile
+    msgbox (sprintf('Image not selected!!!'), 'Error','warning');
+    return
+end
+I= imread(path);
+binaryImage = im2double(I);
+imshow(a);
+title('Binary image')
+
+% Display the original binary image
+figure;
+subplot(1, 2, 1);
+imshow(binaryImage);
+title('Original Binary Image');
+
+%Opening Operations
+
+%Structuring Element
+seOpening = strel('disk', 5);
+
+%Erosion
+erodedImage = imerode(binaryImage, seOpening);
+
+%Boundary Extraction
+boundary=binaryImage-erodedImage;
+subplot(1, 2, 2);
+imshow(binaryImage);
+title('Boundary Extraction');
