@@ -12,7 +12,11 @@
 - [Histogram Equalization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Histogram_Equalization.m)
 - [Morphological Operations](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Morphological_Operations.m)
 - [Smoothing Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Smoothing_Filters.m)
+##### Transform Function
 - [Transform Function](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Transform_Function.m)
+##### Power Law Transformation
+- [Power Law Transform](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation.m)
+- [Power Law Transform II](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation_New.m)
 
 
 
