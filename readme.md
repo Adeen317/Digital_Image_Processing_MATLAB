@@ -1,14 +1,17 @@
 # Digital Image Processing
 ## Table of Contents
+##### Basic Filters
 - [Gray Scale](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Gray_Scale.m)
 - [Thresholding](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Thresholding.m)
 - [Invert](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Invert.m)
-- [Laplacian Filter](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Laplacian_Filter.m)
 - [Quantization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Sampling_and_Quantization.m)
+##### Image Enhancement
+- [Laplacian Filter](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Laplacian_Filter.m)
 - [Denoising & enhancing image](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Denoised_enhnaced_image.m)
+- [Histogram Equalization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Histogram_Equalization.m)
+##### Boundary
 - [Finding Boundaries of Images](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Finding_boundaries_of_edges.m)
 - [Filling Edges](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Filling_edges.m)
-- [Histogram Equalization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Histogram_Equalization.m)
 ##### Morphological Operations
 - [Morphological Operations](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Morphological_Operations.m)
 - [Opening & Closing](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Opening_and_Closing.m)
