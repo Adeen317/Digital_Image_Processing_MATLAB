@@ -19,12 +19,16 @@
 - [Smoothing Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Smoothing_Filters.m)
 ##### Transform Function
 - [Transform Function](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Transform_Function.m)
+- [Low-in Low-out High-in High-out](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Low_in_high_in_low_out_high_out.m)
 ##### Power Law Transformation
 - [Power Law Transform](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation.m)
 - [Power Law Transform II](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation_New.m)
 ##### Sharpening Filter
 - [Sharpening Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Sharpening_Filters.m)
 - [Unsharped Masking & Highboost Filtering](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Unsharped_Masked_and_Highboost_FiItering.m)
+- [Contrast Brightness Adjustment](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Contrast_Brightness_Adjusment.m)
+##### Image Compression
+- [JPEG Compression](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/JPEG_Algorithm.m)
 
 
 
