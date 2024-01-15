@@ -29,6 +29,8 @@
 - [Contrast Brightness Adjustment](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Contrast_Brightness_Adjusment.m)
 ##### Image Compression
 - [JPEG Compression](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/JPEG_Algorithm.m)
+##### Line Detection
+- [Horizontal, Vertical, Diagonal Lines](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Horizontal_Vertical_Diagonal.m)
 
 
 
