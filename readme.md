@@ -18,6 +18,7 @@
 - [Power Law Transform](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation.m)
 - [Power Law Transform II](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation_New.m)
 
+- [Sharpening Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Sharpening_Filters.m)
 
 
 
