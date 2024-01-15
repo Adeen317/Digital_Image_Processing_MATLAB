@@ -9,7 +9,10 @@
 - [Finding Boundaries of Images](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Finding_boundaries_of_edges.m)
 - [Filling Edges](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Filling_edges.m)
 - [Histogram Equalization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Histogram_Equalization.m)
+##### Morphological Operations
 - [Morphological Operations](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Morphological_Operations.m)
+- [Opening & Closing](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Opening_and_Closing.m)
+##### Smoothing Filter
 - [Smoothing Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Smoothing_Filters.m)
 ##### Transform Function
 - [Transform Function](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Transform_Function.m)
