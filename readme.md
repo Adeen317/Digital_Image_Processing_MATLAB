@@ -5,7 +5,6 @@
 - [Invert](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Invert.m)
 - [Laplacian Filter](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Laplacian_Filter.m)
 - [Quantization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Sampling_and_Quantization.m)
-- [Unsharped Masking & Highboost Filtering](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Unsharped_Masked_and_Highboost_FiItering.m)
 - [Denoising & enhancing image](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Denoised_enhnaced_image.m)
 - [Finding Boundaries of Images](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Finding_boundaries_of_edges.m)
 - [Filling Edges](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Filling_edges.m)
@@ -17,9 +16,9 @@
 ##### Power Law Transformation
 - [Power Law Transform](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation.m)
 - [Power Law Transform II](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation_New.m)
-
+##### Sharpening Filter
 - [Sharpening Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Sharpening_Filters.m)
-
+- [Unsharped Masking & Highboost Filtering](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Unsharped_Masked_and_Highboost_FiItering.m)
 
 
 
