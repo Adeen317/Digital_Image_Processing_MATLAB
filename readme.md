@@ -17,7 +17,7 @@
 - [Opening & Closing](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Opening_and_Closing.m)
 - [Filling Edges](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Filling_edges.m)
 - [Skeletonization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Skeletonization.m)
-- [Boundary_Extraction](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Boundary_Extraction.m)
+- [Boundary Extraction](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Boundary_Extraction.m)
 ##### Smoothing Filter
 - [Smoothing Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Smoothing_Filters.m)
 ##### Transform Function
