@@ -15,11 +15,14 @@
 ##### Morphological Operations
 - [Morphological Operations](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Morphological_Operations.m)
 - [Opening & Closing](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Opening_and_Closing.m)
+- [Filling Edges](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Filling_edges.m)
+- [Skeletonization](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Skeletonization.m)
+- [Boundary_Extraction](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Boundary_Extraction.m)
 ##### Smoothing Filter
 - [Smoothing Filters](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Smoothing_Filters.m)
 ##### Transform Function
 - [Transform Function](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/adeen_space1/Transform_Function.m)
-- [Low-in Low-out High-in High-out](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Low_in_high_in_low_out_high_out.m)
+- [Low-in Low-out High-in High-out(Adjust)](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Low_in_high_in_low_out_high_out.m)
 ##### Power Law Transformation
 - [Power Law Transform](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation.m)
 - [Power Law Transform II](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Power_Law_Transformation_New.m)
@@ -31,10 +34,11 @@
 - [JPEG Compression](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/JPEG_Algorithm.m)
 ##### Line Detection
 - [Horizontal, Vertical, Diagonal Lines](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Horizontal_Vertical_Diagonal.m)
-
-
-
-
+##### Segmentation
+- [Segmentation Custom Thresholding](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Segmentation_custom_thresholding.m)
+- [Horizontal, Vertical, Diagonal Lines](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Horizontal_Vertical_Diagonal.m)
+##### Intensity Transformation
+- [Intensity Transformation](https://github.com/Adeen317/Digital_Image_Processing_MATLAB/blob/main/Intensity_Transformation.m)
 
 
 
